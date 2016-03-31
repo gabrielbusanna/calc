@@ -1,0 +1,49 @@
+body { 
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px; 
+    width:960px; 
+    margin:0 auto; 
+}
+label{ 
+    width:190px; 
+    display:inline-block; 
+    text-align:right;    
+}
+input{
+    margin-bottom:3px;
+    border-radius:4px;
+    width:35px;
+    height: 20px;
+}
+span{ 
+	display:inline-block; 
+	height:20px; 
+	margin-bottom:3px; 
+	width:50px; 
+	vertical-align:middle; 
+	border:1px solid red; 
+	background-color:lightgray;
+    font-family:monospace;
+    font-size:14px;
+    padding:1px;
+    border-radius:4px;     
+}
+.calculados{
+    color:#777;
+}
+	#titulo {
+    font-family:cursive; 
+    font-size: 10;
+}
+.hora {
+    padding:2px;
+	border:1px solid black;
+	-webkit-transition: background 1s linear, border 3s;
+	-moz-transition: background 1s linear, border 3s;
+	-o-transition: background 1s linear, border 3s;
+	transition: background 1s linear, border 3s;
+    }
+.hora:focus {
+    background:lightgray;
+	border-color:black;    
+}
